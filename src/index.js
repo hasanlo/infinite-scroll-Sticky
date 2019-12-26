@@ -82,8 +82,10 @@ class App extends Component {
                   style={{
                     background: "white",
                     width: "100%",
-                    fontSize: "16px",
-                    border: "solid 1px black"
+                    fontSize: "35px",
+                    color: "#dd2c00",
+                    textAlign: "center",
+                    border: "solid 3px #b71c1c"
                   }}
                 >
                   {track.title}
