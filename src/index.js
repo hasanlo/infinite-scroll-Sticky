@@ -10,9 +10,6 @@ const api = {
   client_id: "caf73ef1e709f839664ab82bef40fa96"
 };
 
-const containerBg = i => `hsl(${i * 40}, 70%, 90%)`;
-const headerBg = i => `hsl(${i * 40}, 70%, 50%)`;
-
 class App extends Component {
   constructor(props) {
     super(props);
